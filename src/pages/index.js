@@ -1,22 +1,30 @@
 import React from "react"
-import { Link } from "gatsby"
 
-import Layout from "../components/layout"
-import Image from "../components/image"
-import SEO from "../components/seo"
+//import styles
+import "bootstrap/dist/css/bootstrap.min.css"
+import "../style/style.scss"
+
+//import components
+//import bootstrap components
+import Header from "../components/header"
+import Jumbotron from "../components/jumbotron"
+import Carousel from "../components/carousel"
+import Footer from "../components/footer"
+import CourseSection from "../components/corse_section"
+import SubscribeSection from "../components/subsribe-section"
+import StepSection from "../components/step_section"
 
 const IndexPage = () => (
-  <Layout>
-    <SEO title="Home" />
-    <h1>Hi people</h1>
-    <p>Welcome to your new Gatsby site.</p>
-    <p>Now go build something great.</p>
-    <div style={{ maxWidth: `300px`, marginBottom: `1.45rem` }}>
-      <Image />
-    </div>
-    <Link to="/page-2/">Go to page 2</Link> <br />
-    <Link to="/using-typescript/">Go to "Using TypeScript"</Link>
-  </Layout>
+  <div>
+    <Header></Header>
+    <Carousel></Carousel>
+    <Jumbotron></Jumbotron>
+    <CourseSection></CourseSection>
+    <StepSection></StepSection>
+    <SubscribeSection></SubscribeSection>
+    <Footer></Footer>
+      <script src={"src/script.js"}></script>
+  </div>
 )
 
 export default IndexPage
