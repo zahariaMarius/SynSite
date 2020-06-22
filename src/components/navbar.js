@@ -29,7 +29,7 @@ const NavBar = (props) => {
               <NavLink href="https://github.com/reactstrap/reactstrap">GitHub</NavLink>
             </NavItem>*/}
           </Nav>
-          <NavbarText>Simple Text</NavbarText>
+          <NavbarText>Social Icons</NavbarText>
         </Collapse>
       </Navbar>
   )

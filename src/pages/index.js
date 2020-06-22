@@ -1,8 +1,8 @@
 import React from "react"
-
 //import styles
 import "bootstrap/dist/css/bootstrap.min.css"
 import "../style/style.scss"
+import "../script.js"
 
 //import components
 //import bootstrap components
@@ -23,7 +23,6 @@ const IndexPage = () => (
     <StepSection></StepSection>
     <SubscribeSection></SubscribeSection>
     <Footer></Footer>
-      <script src={"src/script.js"}></script>
   </div>
 )
 
